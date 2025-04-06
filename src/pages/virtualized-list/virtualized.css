@@ -1,0 +1,23 @@
+h2 {
+	border-bottom: 1px solid black;
+}
+
+.list-container {
+	max-width: 800px;
+	margin: 20px auto;
+	border: 1px solid #cccc;
+	padding: 10px;
+}
+
+.list-row {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #eee;
+	overflow-y: hidden !important;
+}
+
+.item-id {
+	width: 50px;
+	font-weight: bold;
+	margin-left: 20px;
+}

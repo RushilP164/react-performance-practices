@@ -1,0 +1,63 @@
+main {
+	padding: 50px;
+	background: white;
+}
+hr {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#nav-id {
+	display: flex;
+	gap: 60px;
+	padding: 20px;
+	border-bottom: 1px solid black;
+	background: #c6c6c4;
+	overflow-x: scroll;
+}
+
+#nav-id a {
+	text-decoration: none;
+	color: #007bff;
+	font-size: 15px;
+	padding: 5px;
+}
+
+#nav-id a.selected {
+	background: #4497f0;
+	color: white;
+}
+
+#key-importance li {
+	border: 1px solid #c6c6c4;
+	margin-bottom: 5px;
+}
+#key-importance li span {
+	min-width: 150px;
+	display: inline-block;
+}
+
+#use-callback-demo h1 {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+#lazy-images {
+	text-align: center;
+}
+#lazy-images label {
+	float: left;
+	font-size: 20px;
+	width: 50px;
+}
+#lazy-images img {
+	margin: 20px;
+	display: block;
+}
+
+#virtualized-list button {
+	margin: auto 10px;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
