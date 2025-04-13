@@ -2,11 +2,11 @@ import { useMemo, useState } from "react";
 import { generateArray } from "../../utils";
 
 const HookUseDeferredValue = () => {
-	console.log("<HookUseDeferredValue />");
+	// console.log("<HookUseDeferredValue />");
 	const [input, setInput] = useState("");
 
 	// useEffect(() => {
-	// 	console.log(input, deferredInput);
+	// 	console.log("input", input, "        ", "deferredInput", deferredInput);
 	// }, [input, deferredInput]);
 
 	// Pre-calculated value
