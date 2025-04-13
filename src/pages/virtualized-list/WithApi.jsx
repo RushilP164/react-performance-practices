@@ -69,8 +69,8 @@ const WithApi = () => {
 						itemCount={itemCount} // Total total number of items (including loading row)
 						itemSize={100} // Height of each row
 						width={800} // Width of the list container
-						onItemsRendered={onItemsRendered} // Callback from InfiniteLoader for monitoring which rows are rendered.
-						ref={ref} // Ref passed from InfiniteLoader to track the scrollable element.
+						onItemsRendered={onItemsRendered} // Callback for monitoring which rows are rendered.
+						ref={ref} // To track the scrollable element.
 						itemData={itemData} // Pass our data array to the row component
 						style={{ maxWidth: "100%" }}
 					>

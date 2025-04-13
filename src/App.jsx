@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 import "./App.css";
-import EagerRoutesHub from "./EagerRoutesHub";
+import RoutesHub from "./EagerRoutesHub";
 
 const App = () => {
 	return (
@@ -9,7 +9,7 @@ const App = () => {
 				<Nav />
 			</header>
 			<main>
-				<EagerRoutesHub />
+				<RoutesHub />
 			</main>
 		</div>
 	);
